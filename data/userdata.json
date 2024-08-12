@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullname": "John Doe",
+      "email": "JohnDoe@mail.com",
+      "password": "abc123!",
+      "orderList": [
+        {
+          "orderId": 1,
+          "date": "2024-01-01",
+          "total": 8.36,
+          "orderItems": [
+            {
+              "id": 1,
+              "title": "Brot",
+              "price": 1.19,
+              "quantity": 2
+            },
+            {
+              "id": 2,
+              "title": "Käse",
+              "price": 2.99,
+              "quantity": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
